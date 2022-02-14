@@ -21,7 +21,7 @@ const Navbar = ( { totalItems } ) => {
                         Limo Brand
                     </Typography>
                     <div className={classes.grow} />
-                    {location.pathname == '/' && (
+                    {location.pathname === '/' && (
                     <div className={classes.button}>
                         <IconButton component={Link} to="/carrinho" aria-label="Mostar itens do carrinho" color="inherit">
                             <Badge badgeContent={totalItems} color="secondary">
