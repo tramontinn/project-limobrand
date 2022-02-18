@@ -8,7 +8,7 @@ import PaymentForm from '../PaymentForm';
 const steps = ['Shipping addres', 'Payment details'];
 
 const Checkout = () => {
-    const [activeStep, setActiveStep] = useState(2);
+    const [activeStep, setActiveStep] = useState(0);
     const classes = useStyles();
 
     const Confirmation = () => (
